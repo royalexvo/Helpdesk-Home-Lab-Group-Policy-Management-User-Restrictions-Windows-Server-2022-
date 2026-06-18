@@ -1,4 +1,4 @@
-# Helpdesk-Home-Lab-Group-Policy-Wallpaper-Restrictions-Windows-Server-2022-
+# Helpdesk Home Lab – Group Policy Management & User Restrictions (Windows Server 2022)
 
 <h2>Description</h2>
 
