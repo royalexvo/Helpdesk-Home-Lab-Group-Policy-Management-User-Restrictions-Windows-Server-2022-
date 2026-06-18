@@ -67,7 +67,7 @@ Refresh Group Policy and review the existing user and computer configurations:<b
 
 <p align="center">
 <b>Step 3 – Create a Wallpaper Repository</b><br/><br/>
-Create a shared folder that will store the corporate wallpaper image:<br/>
+Create a wallpaper folder in our share drive that will store the corporate wallpaper image:<br/>
 <img src="INSERT_STEP_3_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
