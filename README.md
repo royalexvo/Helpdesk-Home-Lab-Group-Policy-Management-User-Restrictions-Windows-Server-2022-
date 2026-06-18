@@ -69,7 +69,7 @@ Use shared folder from previous labs that will host the corporate desktop wallpa
 
 <p align="center">
 <b>Step 4 – Configure Share Permissions</b><br/><br/>
-Assign the appropriate permissions required for users to access the wallpaper file:<br/>
+Transfer the wallpaper from the shared folder into the local share drive we created from previous labs. Assign the appropriate permissions required for users to access the wallpaper file:<br/>
 <img src="INSERT_STEP_4_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
