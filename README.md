@@ -62,8 +62,8 @@ Refresh the policy and review existing user and computer configuration settings:
 </p>
 
 <p align="center">
-<b>Step 3 – Create a Wallpaper Repository</b><br/><br/>
-Create a shared folder that will host the corporate desktop wallpaper image:<br/>
+<b>Step 3 – Upload Wallpaper to the Shared Folder</b><br/><br/>
+Use shared folder from previous labs that will host the corporate desktop wallpaper image:<br/>
 <img src="INSERT_STEP_3_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
