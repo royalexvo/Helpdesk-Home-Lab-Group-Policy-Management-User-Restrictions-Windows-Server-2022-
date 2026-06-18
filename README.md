@@ -1,33 +1,37 @@
-<h1>Helpdesk Home Lab – Group Policy Management & User Restrictions (Windows Server 2022)</h1>
+# Helpdesk-Home-Lab-Group-Policy-Wallpaper-Restrictions-Windows-Server-2022-
 
 <h2>Description</h2>
 
-This lab demonstrates Group Policy Management within an Active Directory environment. The goal of this lab is to practice managing user settings, desktop restrictions, login behavior, wallpaper policies, shutdown options, password controls, and other administrative settings through Group Policy Objects (GPOs) commonly used by help desk technicians and system administrators.
+This lab demonstrates Group Policy administration within an Active Directory environment. The goal of this lab is to practice configuring desktop restrictions, enforcing corporate wallpapers, controlling user access to system features, managing shutdown options, configuring screen saver policies, and applying centralized workstation management through Group Policy Objects (GPOs).
 
 In this lab, the following tasks were completed:
 
-- <b>Opened and reviewed the Default Domain Policy</b>
-- <b>Refreshed Group Policy settings on a client machine</b>
+- <b>Reviewed Group Policy Management settings</b>
+- <b>Edited the Default Domain Policy</b>
 - <b>Configured a custom desktop wallpaper through Group Policy</b>
-- <b>Created and configured a network share for wallpaper deployment</b>
-- <b>Assigned NTFS permissions for wallpaper access</b>
-- <b>Granted a domain user read access to the wallpaper share</b>
-- <b>Configured desktop wallpaper restrictions</b>
+- <b>Created a shared folder for wallpaper deployment</b>
+- <b>Configured share permissions for wallpaper access</b>
+- <b>Configured NTFS permissions for wallpaper access</b>
+- <b>Granted a domain user read access to the wallpaper file</b>
+- <b>Configured desktop wallpaper enforcement</b>
 - <b>Prevented users from changing the desktop wallpaper</b>
+- <b>Reviewed desktop personalization policies</b>
 - <b>Reviewed screen saver policy settings</b>
 - <b>Reviewed screen timeout policy settings</b>
-- <b>Configured user desktop personalization settings</b>
-- <b>Reviewed Start Menu policy options</b>
-- <b>Configured power and shutdown restrictions</b>
+- <b>Reviewed Start Menu policy settings</b>
+- <b>Configured shutdown and restart restrictions</b>
 - <b>Removed shutdown and restart options from the Start Menu</b>
-- <b>Restricted access to password management options</b>
+- <b>Reviewed login and lock screen settings</b>
+- <b>Reviewed CTRL+ALT+DELETE policy settings</b>
+- <b>Restricted password change functionality</b>
 - <b>Disabled Task Manager through Group Policy</b>
-- <b>Tested Group Policy changes on a Windows 11 workstation</b>
-- <b>Reviewed Control + Alt + Delete policy settings</b>
-- <b>Reviewed Windows component administrative templates</b>
-- <b>Reviewed password and account lockout policy settings</b>
+- <b>Tested policy enforcement on a Windows 11 workstation</b>
+- <b>Reviewed Administrative Template settings</b>
+- <b>Reviewed Windows Component policy settings</b>
+- <b>Reviewed password policy settings</b>
+- <b>Reviewed account lockout policy settings</b>
 
-This lab demonstrates how Group Policy can be used to centrally manage user experience, security settings, and workstation restrictions across an Active Directory environment.
+This lab demonstrates how administrators can centrally manage user experience, workstation restrictions, desktop customization, and security controls through Active Directory Group Policy. :contentReference[oaicite:0]{index=0}
 
 <h2>Languages and Utilities Used</h2>
 
@@ -38,7 +42,7 @@ This lab demonstrates how Group Policy can be used to centrally manage user expe
 - <b>Server Manager</b>
 - <b>Administrative Templates</b>
 - <b>File Explorer</b>
-- <b>Command Prompt (CMD)</b>
+- <b>Shared Folders</b>
 
 <h2>Environments Used</h2>
 
@@ -56,38 +60,38 @@ Launch Group Policy Management and open the Default Domain Policy for editing:<b
 </p>
 
 <p align="center">
-<b>Step 2 – Review Existing Group Policy Settings</b><br/><br/>
-Refresh the policy and review existing user and computer configuration settings:<br/>
+<b>Step 2 – Review Existing Policies</b><br/><br/>
+Refresh Group Policy and review the existing user and computer configurations:<br/>
 <img src="INSERT_STEP_2_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
-<b>Step 3 – Upload Wallpaper to the Shared Folder</b><br/><br/>
-Use shared folder from previous labs that will host the corporate desktop wallpaper image:<br/>
+<b>Step 3 – Create a Wallpaper Repository</b><br/><br/>
+Create a shared folder that will store the corporate wallpaper image:<br/>
 <img src="INSERT_STEP_3_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
 <b>Step 4 – Configure Share Permissions</b><br/><br/>
-Transfer the wallpaper from the shared folder into the local share drive we created from previous labs. Assign the appropriate permissions required for users to access the wallpaper file:<br/>
+Assign share permissions required for users to access the wallpaper file:<br/>
 <img src="INSERT_STEP_4_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
 <b>Step 5 – Configure NTFS Permissions</b><br/><br/>
-Grant users read access to the wallpaper image through NTFS permissions:<br/>
+Grant users read access to the wallpaper file through NTFS permissions:<br/>
 <img src="INSERT_STEP_5_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
-<b>Step 6 – Configure Desktop Wallpaper Policy</b><br/><br/>
-Specify the wallpaper network path within the Group Policy settings:<br/>
+<b>Step 6 – Configure Wallpaper Policy</b><br/><br/>
+Specify the network path for the desktop wallpaper within Group Policy:<br/>
 <img src="INSERT_STEP_6_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
 <b>Step 7 – Deploy the Wallpaper Configuration</b><br/><br/>
-Apply the wallpaper policy and configure the desired wallpaper style settings:<br/>
+Apply wallpaper settings and configure the desired wallpaper style:<br/>
 <img src="INSERT_STEP_7_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
@@ -99,13 +103,13 @@ Configure restrictions that prevent users from changing the desktop wallpaper:<b
 
 <p align="center">
 <b>Step 9 – Review Screen Saver Policies</b><br/><br/>
-Explore screen saver timeout and enforcement settings within Group Policy:<br/>
+Review screen saver timeout and enforcement settings within Group Policy:<br/>
 <img src="INSERT_STEP_9_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
 <b>Step 10 – Review Desktop Personalization Policies</b><br/><br/>
-Review desktop and personalization administrative template settings:<br/>
+Explore desktop and personalization administrative template settings:<br/>
 <img src="INSERT_STEP_10_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
@@ -116,43 +120,49 @@ Remove shutdown and restart options from the Windows Start Menu:<br/>
 </p>
 
 <p align="center">
-<b>Step 12 – Configure Password Restrictions</b><br/><br/>
-Review and modify password-related options available to users:<br/>
+<b>Step 12 – Review Login and Lock Screen Policies</b><br/><br/>
+Review user login, lock screen, and authentication-related policy settings:<br/>
 <img src="INSERT_STEP_12_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
-<b>Step 13 – Disable Task Manager</b><br/><br/>
-Configure Group Policy settings to restrict access to Task Manager:<br/>
+<b>Step 13 – Configure Password Change Restrictions</b><br/><br/>
+Restrict user access to password management options through Group Policy:<br/>
 <img src="INSERT_STEP_13_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
-<b>Step 14 – Review CTRL+ALT+DELETE Policies</b><br/><br/>
-Explore security and logon options available through administrative templates:<br/>
+<b>Step 14 – Disable Task Manager</b><br/><br/>
+Configure Group Policy settings to prevent users from launching Task Manager:<br/>
 <img src="INSERT_STEP_14_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
-<b>Step 15 – Test Group Policy Changes</b><br/><br/>
-Log in as a domain user and verify wallpaper, shutdown, and Task Manager restrictions:<br/>
+<b>Step 15 – Review Administrative Templates</b><br/><br/>
+Explore available Administrative Template settings for user and computer management:<br/>
 <img src="INSERT_STEP_15_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
-<b>Step 16 – Review Administrative Templates</b><br/><br/>
-Explore additional Group Policy settings available through Windows components and administrative templates:<br/>
+<b>Step 16 – Review Windows Component Policies</b><br/><br/>
+Review Windows component settings including Edge, Calculator, and system applications:<br/>
 <img src="INSERT_STEP_16_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
-<b>Step 17 – Review Password and Lockout Policies</b><br/><br/>
-Review password complexity, password age, and account lockout configurations:<br/>
+<b>Step 17 – Test Group Policy Enforcement</b><br/><br/>
+Log in as a domain user and verify wallpaper, shutdown, and Task Manager restrictions:<br/>
 <img src="INSERT_STEP_17_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
-<b>Step 18 – Validate User Experience Restrictions</b><br/><br/>
-Confirm that Group Policy changes are successfully applied to the Windows 11 workstation:<br/>
+<b>Step 18 – Review Password and Lockout Policies</b><br/><br/>
+Review password age, password complexity, and account lockout policy settings:<br/>
 <img src="INSERT_STEP_18_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
+</p>
+
+<p align="center">
+<b>Step 19 – Validate User Experience Restrictions</b><br/><br/>
+Confirm that all Group Policy changes are successfully applied to the Windows 11 workstation:<br/>
+<img src="INSERT_STEP_19_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
