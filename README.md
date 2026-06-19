@@ -84,7 +84,7 @@ Configure restrictions that prevent users from changing the desktop wallpaper:<b
 </p>
 
 <p align="center">
-<b>Step 6 – Review Screen Saver Policies</b><br/><br/>
+<b>Step 6 – Configure Screen Saver Policies</b><br/><br/>
 Enable screen saver and set the timeout out option to 15 minutes within the Group Policy Editor:<br/>
 <img src="INSERT_STEP_9_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
