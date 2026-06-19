@@ -2,34 +2,24 @@
 
 <h2>Description</h2>
 
-This lab demonstrates Group Policy administration within an Active Directory environment. The goal of this lab is to practice configuring desktop restrictions, enforcing corporate wallpapers, controlling user access to system features, managing shutdown options, configuring screen saver policies, and applying centralized workstation management through Group Policy Objects (GPOs).
+This lab demonstrates Group Policy administration within an Active Directory environment. The goal of this lab is to practice deploying a corporate desktop wallpaper, configuring file share permissions, enforcing desktop restrictions, managing screen saver settings, restricting user access to system features, and applying centralized workstation management through Group Policy Objects (GPOs).
 
 In this lab, the following tasks were completed:
 
-- <b>Edited the Default Domain Policy</b>
-- <b>Configured a custom desktop wallpaper through Group Policy</b>
-- <b>Created a shared folder for wallpaper deployment</b>
+- <b>Created a wallpaper repository on a network share</b>
 - <b>Configured share permissions for wallpaper access</b>
-- <b>Granted a domain user read access to the wallpaper file</b>
-- <b>Configured desktop wallpaper enforcement</b>
+- <b>Configured a desktop wallpaper through Group Policy</b>
+- <b>Verified wallpaper deployment on a Windows 11 workstation</b>
 - <b>Prevented users from changing the desktop wallpaper</b>
-- <b>Reviewed desktop personalization policies</b>
-- <b>Reviewed screen saver policy settings</b>
-- <b>Reviewed screen timeout policy settings</b>
-- <b>Reviewed Start Menu policy settings</b>
+- <b>Configured screen saver policies</b>
+- <b>Configured screen saver timeout settings</b>
 - <b>Configured shutdown and restart restrictions</b>
 - <b>Removed shutdown and restart options from the Start Menu</b>
-- <b>Reviewed login and lock screen settings</b>
-- <b>Reviewed CTRL+ALT+DELETE policy settings</b>
-- <b>Restricted password change functionality</b>
+- <b>Restricted user access to password management options</b>
 - <b>Disabled Task Manager through Group Policy</b>
-- <b>Tested policy enforcement on a Windows 11 workstation</b>
-- <b>Reviewed Administrative Template settings</b>
-- <b>Reviewed Windows Component policy settings</b>
-- <b>Reviewed password policy settings</b>
-- <b>Reviewed account lockout policy settings</b>
+- <b>Tested Group Policy enforcement on a Windows 11 workstation</b>
 
-This lab demonstrates how administrators can centrally manage user experience, workstation restrictions, desktop customization, and security controls through Active Directory Group Policy. :contentReference[oaicite:0]{index=0}
+This lab demonstrates how administrators can centrally manage desktop settings, user restrictions, and workstation security through Active Directory Group Policy.
 
 <h2>Languages and Utilities Used</h2>
 
