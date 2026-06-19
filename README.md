@@ -108,31 +108,8 @@ Configure Group Policy settings to prevent users from launching Task Manager:<br
 </p>
 
 <p align="center">
-<b>Step 10 – Review Administrative Templates</b><br/><br/>
-Explore available Administrative Template settings for user and computer management:<br/>
-<img src="INSERT_STEP_15_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
-</p>
-
-<p align="center">
-<b>Step 11 – Review Windows Component Policies</b><br/><br/>
-Review Windows component settings including Edge, Calculator, and system applications:<br/>
-<img src="INSERT_STEP_16_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
-</p>
-
-<p align="center">
-<b>Step 12 – Test Group Policy Enforcement</b><br/><br/>
-Log in as a domain user and verify wallpaper, shutdown, and Task Manager restrictions:<br/>
+<b>Step 10 – Test Group Policy Enforcement</b><br/><br/>
+Log in as a domain user and verify wallpaper, shutdown, and Task Manager restrictions. Wallpaper is black due to Windows activation restriction:<br/>
 <img src="INSERT_STEP_17_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
-<p align="center">
-<b>Step 13 – Review Password and Lockout Policies</b><br/><br/>
-Review password age, password complexity, and account lockout policy settings:<br/>
-<img src="INSERT_STEP_18_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
-</p>
-
-<p align="center">
-<b>Step 14 – Validate User Experience Restrictions</b><br/><br/>
-Confirm that all Group Policy changes are successfully applied to the Windows 11 workstation:<br/>
-<img src="INSERT_STEP_19_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
-</p>
