@@ -79,7 +79,7 @@ Confirm wallpaper settings on the Windows 11 machine. I had to use a workaround 
 
 <p align="center">
 <b>Step 5 – Prevent Wallpaper Changes</b><br/><br/>
-Configure restrictions that prevent users from changing the desktop wallpaper:<br/>
+Configure restrictions that prevent users from changing the desktop wallpaper. Setting the default path already does this, but prohibiting changes is an extra step for increased security:<br/>
 <img src="INSERT_STEP_8_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
