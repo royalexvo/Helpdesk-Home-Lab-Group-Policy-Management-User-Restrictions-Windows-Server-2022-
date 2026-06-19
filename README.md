@@ -46,60 +46,60 @@ This lab demonstrates how administrators can centrally manage desktop settings, 
 <p align="center">
 <b>Step 1 – Create a Wallpaper Repository</b><br/><br/>
 Create a wallpaper sub-folder in our share drive that will store the corporate wallpaper image:<br/>
-<img src="INSERT_STEP_3_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
+<img src="https://github.com/royalexvo/Helpdesk-Home-Lab-Group-Policy-Management-User-Restrictions-Windows-Server-2022-/blob/main/1.png?raw=true" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
 <b>Step 2 – Configure Share Permissions</b><br/><br/>
 Assign share permissions required for users to access the wallpaper file:<br/>
-<img src="INSERT_STEP_4_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
+<img src="https://github.com/royalexvo/Helpdesk-Home-Lab-Group-Policy-Management-User-Restrictions-Windows-Server-2022-/blob/main/2.png?raw=true" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
 <b>Step 3 – Configure Wallpaper Policy</b><br/><br/>
 Specify the network path for the desktop wallpaper within Group Policy Editor to set the default wallpaper for user desktops:<br/>
-<img src="INSERT_STEP_6_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
+<img src="https://github.com/royalexvo/Helpdesk-Home-Lab-Group-Policy-Management-User-Restrictions-Windows-Server-2022-/blob/main/3.png?raw=true" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
 <b>Step 4 – Confirm the Wallpaper Configuration</b><br/><br/>
 Confirm wallpaper settings on the Windows 11 machine. I had to use a workaround because I don't have Windows 11 activated on the machine:<br/>
-<img src="INSERT_STEP_7_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
+<img src="https://github.com/royalexvo/Helpdesk-Home-Lab-Group-Policy-Management-User-Restrictions-Windows-Server-2022-/blob/main/4.png?raw=true" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
 <b>Step 5 – Prevent Wallpaper Changes</b><br/><br/>
 Configure restrictions that prevent users from changing the desktop wallpaper. Setting the default path already does this, but prohibiting changes is an extra step for increased security:<br/>
-<img src="INSERT_STEP_8_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
+<img src="https://github.com/royalexvo/Helpdesk-Home-Lab-Group-Policy-Management-User-Restrictions-Windows-Server-2022-/blob/main/5.png?raw=true" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
 <b>Step 6 – Configure Screen Saver Policies</b><br/><br/>
 Enable screen saver and set the timeout out option to 15 minutes within the Group Policy Editor:<br/>
-<img src="INSERT_STEP_9_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
+<img src="https://github.com/royalexvo/Helpdesk-Home-Lab-Group-Policy-Management-User-Restrictions-Windows-Server-2022-/blob/main/6.png?raw=true" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
 <b>Step 7 – Configure Shutdown Restrictions</b><br/><br/>
 Remove shutdown and restart options from the Windows Start Menu:<br/>
-<img src="INSERT_STEP_11_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
+<img src="https://github.com/royalexvo/Helpdesk-Home-Lab-Group-Policy-Management-User-Restrictions-Windows-Server-2022-/blob/main/7.png?raw=true" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
 <b>Step 8 – Configure Password Change Restrictions</b><br/><br/>
 Restrict user access to password management options through Group Policy:<br/>
-<img src="INSERT_STEP_13_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
+<img src="https://github.com/royalexvo/Helpdesk-Home-Lab-Group-Policy-Management-User-Restrictions-Windows-Server-2022-/blob/main/8.png?raw=true" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
 <b>Step 9 – Disable Task Manager</b><br/><br/>
 Configure Group Policy settings to prevent users from launching Task Manager:<br/>
-<img src="INSERT_STEP_14_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
+<img src="https://github.com/royalexvo/Helpdesk-Home-Lab-Group-Policy-Management-User-Restrictions-Windows-Server-2022-/blob/main/9.png?raw=true" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
 <b>Step 10 – Test Group Policy Enforcement</b><br/><br/>
 Log in as a domain user and verify wallpaper, shutdown, and Task Manager restrictions. Wallpaper is black due to Windows activation restriction:<br/>
-<img src="INSERT_STEP_17_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
+<img src="https://github.com/royalexvo/Helpdesk-Home-Lab-Group-Policy-Management-User-Restrictions-Windows-Server-2022-/blob/main/10.png?raw=true" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
