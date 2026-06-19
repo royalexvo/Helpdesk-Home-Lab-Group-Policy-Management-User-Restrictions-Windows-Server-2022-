@@ -67,13 +67,13 @@ Assign share permissions required for users to access the wallpaper file:<br/>
 
 <p align="center">
 <b>Step 3 – Configure Wallpaper Policy</b><br/><br/>
-Specify the network path for the desktop wallpaper within Group Policy Editor:<br/>
+Specify the network path for the desktop wallpaper within Group Policy Editor to set the default wallpaper for user desktops:<br/>
 <img src="INSERT_STEP_6_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
-<b>Step 4 – Deploy the Wallpaper Configuration</b><br/><br/>
-Apply wallpaper settings on the Windows 11 machine. I had to use a workaround because I don't have Windows 11 activated on the machine:<br/>
+<b>Step 4 – Confirm the Wallpaper Configuration</b><br/><br/>
+Confirm wallpaper settings on the Windows 11 machine. I had to use a workaround because I don't have Windows 11 activated on the machine:<br/>
 <img src="INSERT_STEP_7_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
