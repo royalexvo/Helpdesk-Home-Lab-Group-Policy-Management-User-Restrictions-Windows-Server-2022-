@@ -73,7 +73,7 @@ Specify the network path for the desktop wallpaper within Group Policy Editor:<b
 
 <p align="center">
 <b>Step 4 – Deploy the Wallpaper Configuration</b><br/><br/>
-Apply wallpaper settings and configure the desired wallpaper style  on the Windows 11 machine:<br/>
+Apply wallpaper settings on the Windows 11 machine. I had to use a workaround because I don't have Windows 11 activated on the machine:<br/>
 <img src="INSERT_STEP_7_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
@@ -85,7 +85,7 @@ Configure restrictions that prevent users from changing the desktop wallpaper:<b
 
 <p align="center">
 <b>Step 6 – Review Screen Saver Policies</b><br/><br/>
-Review screen saver timeout and enforcement settings within Group Policy:<br/>
+Enable screen saver and set the timeout out option to 15 minutes within the Group Policy Editor:<br/>
 <img src="INSERT_STEP_9_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
