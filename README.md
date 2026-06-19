@@ -73,7 +73,7 @@ Specify the network path for the desktop wallpaper within Group Policy Editor:<b
 
 <p align="center">
 <b>Step 4 – Deploy the Wallpaper Configuration</b><br/><br/>
-Apply wallpaper settings and configure the desired wallpaper style:<br/>
+Apply wallpaper settings and configure the desired wallpaper style  on the Windows 11 machine:<br/>
 <img src="INSERT_STEP_7_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
