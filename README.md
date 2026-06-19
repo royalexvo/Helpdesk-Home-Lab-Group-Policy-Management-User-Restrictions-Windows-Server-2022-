@@ -11,7 +11,6 @@ In this lab, the following tasks were completed:
 - <b>Configured a custom desktop wallpaper through Group Policy</b>
 - <b>Created a shared folder for wallpaper deployment</b>
 - <b>Configured share permissions for wallpaper access</b>
-- <b>Configured NTFS permissions for wallpaper access</b>
 - <b>Granted a domain user read access to the wallpaper file</b>
 - <b>Configured desktop wallpaper enforcement</b>
 - <b>Prevented users from changing the desktop wallpaper</b>
@@ -78,91 +77,85 @@ Assign share permissions required for users to access the wallpaper file:<br/>
 </p>
 
 <p align="center">
-<b>Step 5 – Configure NTFS Permissions</b><br/><br/>
-Grant users read access to the wallpaper file through NTFS permissions:<br/>
-<img src="INSERT_STEP_5_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
-</p>
-
-<p align="center">
-<b>Step 6 – Configure Wallpaper Policy</b><br/><br/>
+<b>Step 5 – Configure Wallpaper Policy</b><br/><br/>
 Specify the network path for the desktop wallpaper within Group Policy:<br/>
 <img src="INSERT_STEP_6_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
-<b>Step 7 – Deploy the Wallpaper Configuration</b><br/><br/>
+<b>Step 6 – Deploy the Wallpaper Configuration</b><br/><br/>
 Apply wallpaper settings and configure the desired wallpaper style:<br/>
 <img src="INSERT_STEP_7_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
-<b>Step 8 – Prevent Wallpaper Changes</b><br/><br/>
+<b>Step 7 – Prevent Wallpaper Changes</b><br/><br/>
 Configure restrictions that prevent users from changing the desktop wallpaper:<br/>
 <img src="INSERT_STEP_8_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
-<b>Step 9 – Review Screen Saver Policies</b><br/><br/>
+<b>Step 8 – Review Screen Saver Policies</b><br/><br/>
 Review screen saver timeout and enforcement settings within Group Policy:<br/>
 <img src="INSERT_STEP_9_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
-<b>Step 10 – Review Desktop Personalization Policies</b><br/><br/>
+<b>Step 9 – Review Desktop Personalization Policies</b><br/><br/>
 Explore desktop and personalization administrative template settings:<br/>
 <img src="INSERT_STEP_10_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
-<b>Step 11 – Configure Shutdown Restrictions</b><br/><br/>
+<b>Step 10 – Configure Shutdown Restrictions</b><br/><br/>
 Remove shutdown and restart options from the Windows Start Menu:<br/>
 <img src="INSERT_STEP_11_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
-<b>Step 12 – Review Login and Lock Screen Policies</b><br/><br/>
+<b>Step 11 – Review Login and Lock Screen Policies</b><br/><br/>
 Review user login, lock screen, and authentication-related policy settings:<br/>
 <img src="INSERT_STEP_12_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
-<b>Step 13 – Configure Password Change Restrictions</b><br/><br/>
+<b>Step 12 – Configure Password Change Restrictions</b><br/><br/>
 Restrict user access to password management options through Group Policy:<br/>
 <img src="INSERT_STEP_13_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
-<b>Step 14 – Disable Task Manager</b><br/><br/>
+<b>Step 13 – Disable Task Manager</b><br/><br/>
 Configure Group Policy settings to prevent users from launching Task Manager:<br/>
 <img src="INSERT_STEP_14_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
-<b>Step 15 – Review Administrative Templates</b><br/><br/>
+<b>Step 14 – Review Administrative Templates</b><br/><br/>
 Explore available Administrative Template settings for user and computer management:<br/>
 <img src="INSERT_STEP_15_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
-<b>Step 16 – Review Windows Component Policies</b><br/><br/>
+<b>Step 15 – Review Windows Component Policies</b><br/><br/>
 Review Windows component settings including Edge, Calculator, and system applications:<br/>
 <img src="INSERT_STEP_16_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
-<b>Step 17 – Test Group Policy Enforcement</b><br/><br/>
+<b>Step 16 – Test Group Policy Enforcement</b><br/><br/>
 Log in as a domain user and verify wallpaper, shutdown, and Task Manager restrictions:<br/>
 <img src="INSERT_STEP_17_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
-<b>Step 18 – Review Password and Lockout Policies</b><br/><br/>
+<b>Step 17 – Review Password and Lockout Policies</b><br/><br/>
 Review password age, password complexity, and account lockout policy settings:<br/>
 <img src="INSERT_STEP_18_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
-<b>Step 19 – Validate User Experience Restrictions</b><br/><br/>
+<b>Step 18 – Validate User Experience Restrictions</b><br/><br/>
 Confirm that all Group Policy changes are successfully applied to the Windows 11 workstation:<br/>
 <img src="INSERT_STEP_19_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
