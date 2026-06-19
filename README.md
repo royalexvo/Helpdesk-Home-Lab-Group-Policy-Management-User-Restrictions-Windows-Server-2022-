@@ -96,49 +96,43 @@ Remove shutdown and restart options from the Windows Start Menu:<br/>
 </p>
 
 <p align="center">
-<b>Step 8 – Review Login and Lock Screen Policies</b><br/><br/>
-Review user login, lock screen, and authentication-related policy settings:<br/>
-<img src="INSERT_STEP_12_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
-</p>
-
-<p align="center">
-<b>Step 9 – Configure Password Change Restrictions</b><br/><br/>
+<b>Step 8 – Configure Password Change Restrictions</b><br/><br/>
 Restrict user access to password management options through Group Policy:<br/>
 <img src="INSERT_STEP_13_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
-<b>Step 10 – Disable Task Manager</b><br/><br/>
+<b>Step 9 – Disable Task Manager</b><br/><br/>
 Configure Group Policy settings to prevent users from launching Task Manager:<br/>
 <img src="INSERT_STEP_14_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
-<b>Step 11 – Review Administrative Templates</b><br/><br/>
+<b>Step 10 – Review Administrative Templates</b><br/><br/>
 Explore available Administrative Template settings for user and computer management:<br/>
 <img src="INSERT_STEP_15_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
-<b>Step 12 – Review Windows Component Policies</b><br/><br/>
+<b>Step 11 – Review Windows Component Policies</b><br/><br/>
 Review Windows component settings including Edge, Calculator, and system applications:<br/>
 <img src="INSERT_STEP_16_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
-<b>Step 13 – Test Group Policy Enforcement</b><br/><br/>
+<b>Step 12 – Test Group Policy Enforcement</b><br/><br/>
 Log in as a domain user and verify wallpaper, shutdown, and Task Manager restrictions:<br/>
 <img src="INSERT_STEP_17_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
-<b>Step 14 – Review Password and Lockout Policies</b><br/><br/>
+<b>Step 13 – Review Password and Lockout Policies</b><br/><br/>
 Review password age, password complexity, and account lockout policy settings:<br/>
 <img src="INSERT_STEP_18_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
-<b>Step 15 – Validate User Experience Restrictions</b><br/><br/>
+<b>Step 14 – Validate User Experience Restrictions</b><br/><br/>
 Confirm that all Group Policy changes are successfully applied to the Windows 11 workstation:<br/>
 <img src="INSERT_STEP_19_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
