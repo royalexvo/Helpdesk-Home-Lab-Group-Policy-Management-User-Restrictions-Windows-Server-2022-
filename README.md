@@ -67,7 +67,7 @@ Assign share permissions required for users to access the wallpaper file:<br/>
 
 <p align="center">
 <b>Step 3 – Configure Wallpaper Policy</b><br/><br/>
-Specify the network path for the desktop wallpaper within Group Policy:<br/>
+Specify the network path for the desktop wallpaper within Group Policy Editor:<br/>
 <img src="INSERT_STEP_6_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
