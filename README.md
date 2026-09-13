@@ -45,7 +45,7 @@ This lab demonstrates how administrators can centrally manage desktop settings, 
 
 <p align="center">
 <b>Step 1 – Create a Wallpaper Repository</b><br/><br/>
-Create a wallpaper sub-folder in our share drive that will store the corporate wallpaper image:<br/>
+Add a wallpaper image in our share drive that will act as our corporate wallpaper:<br/>
 <img src="https://github.com/royalexvo/Helpdesk-Home-Lab-Group-Policy-Management-User-Restrictions-Windows-Server-2022-/blob/main/1.png?raw=true" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
